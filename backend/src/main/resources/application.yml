@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: dairy-management-system
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dairy_management
+    username: postgres
+    password: smita1234
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+server:
+  port: 8080
