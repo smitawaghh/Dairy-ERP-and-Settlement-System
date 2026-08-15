@@ -31,3 +31,18 @@ desktop.ini
 
 # macOS
 .DS_Store
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Maven build output
+target/
+
+# Local application configuration containing secrets
+application-local.yml
+application-local.properties
+
+# Temporary development files
+cp.txt
